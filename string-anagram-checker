@@ -1,0 +1,21 @@
+#include <iostream> 
+#include <string>   
+using namespace std;
+int main() {
+    string word1;
+    string word2;
+    System.out.println(areAnagramas(word1,word2))
+}
+bool areAnagrams(string s1, string s2) {
+    if (s1.length() != s2.length()) return false;
+
+    for (int i = 0; i < s2.length(); i++) {
+        size_t pos = s1.find(s2[i]);
+        if (pos != string::npos) {
+            s1.erase(pos, 1);
+        } else {
+            return false;
+        }
+    }
+    return true;
+}
