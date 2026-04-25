@@ -9,6 +9,7 @@ Calculamos el precio total de las bananas usando un bucle. Posteriormente calcul
 1. Input: 1 2 1
 
 Output: 0
+
 2. Input: 1 5 6
 
 Output: 16
