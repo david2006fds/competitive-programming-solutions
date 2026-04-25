@@ -4,12 +4,13 @@ Repositorio con soluciones a problemas de programación competitiva realizados e
 
 ## Contenido
 - Problemas de strings
-- Problemas de arrays
+- Problemas matemáticos
 - Algoritmos básicos
 
 ## Ejemplo de problema
 
 Verificar si dos strings son anagramas.
+Verificar que string es mayor a otro.
 
 ## Lenguajes utilizados
 - C++
