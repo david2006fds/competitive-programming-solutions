@@ -4,7 +4,9 @@ using namespace std;
 int main() {
     string word1;
     string word2;
-    System.out.println(areAnagramas(word1,word2))
+    cin>>word1;
+    cin>>word2;
+    cout<<areAnagramas(word1,word2);
 }
 bool areAnagrams(string s1, string s2) {
     if (s1.length() != s2.length()) return false;
