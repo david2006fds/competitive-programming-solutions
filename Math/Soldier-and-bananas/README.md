@@ -6,11 +6,11 @@ El soldado tiene k dolares, y debemos saber cuanto dinero debe pedir prestado (s
 Calculamos el precio total de las bananas usando un bucle. Posteriormente calculamos la diferencia, si el dinero no alcanza.
 
 # Ejemplos
-1. Input: 1 2 1
+1.Input: 1 2 1
 
 Output: 0
 
-2. Input: 1 5 6
+2.Input: 1 5 6
 
 Output: 16
 
