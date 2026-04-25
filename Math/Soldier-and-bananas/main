@@ -9,12 +9,12 @@ int main() {
     int cantidad;
     int res;
     cin>>precio>>dinero>>cantidad;
-    for(int i=1;i<cantidad+1;i++){
-        res+=i*precio;
-    }
-    if(dinero>res){cout<<"0";}
-    else{
-    int resultado= abs(res-dinero);
-    cout<<resultado;
-    }
+        for(int i=1;i<cantidad+1;i++){
+            res+=i*precio;
+        }
+        if(dinero>res){cout<<"0";}
+        else{
+            int resultado= abs(res-dinero);
+            cout<<resultado;
+        }
 }
