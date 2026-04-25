@@ -7,8 +7,16 @@ Calculamos el precio total de las bananas usando un bucle. Posteriormente calcul
 
 # Ejemplos
 Input: 1 2 1
+
 Output: 0
 
+
 Input: 1 5 6
+
 Output: 16
 
+# Tecnologias
+- C++
+
+# Autor
+David Pérez Ferrer
