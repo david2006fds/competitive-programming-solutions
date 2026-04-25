@@ -1,0 +1,48 @@
+#include <bits/stdc++.h>
+#include <string>
+using namespace std;
+int main(){
+    string word1;
+    getline(cin,word1);
+    string word2;
+    getline(cin,word2);
+    System.out.println(comparestrings(word1,word2));
+}
+int comparestrings(string word1, string word2){
+    int size=word1.size();
+    int num1=0;
+    int num2=0;
+    char character1;
+    char character2;
+    int pos=0;
+    int res=0;
+      for(int i=0;i<size;i++){
+              if (word1[pos]<91){
+                  character1=word1[pos]+32;
+                  num1=static_cast<int>(character1);
+              }
+              else{g=word1[pos];num1=static_cast<int>(g);
+              }
+              if (word2[pos]<91){
+                  character2=word2[pos]+32;
+                  num2=static_cast<int>(character2);
+              }
+              else{p=word2[pos];num2=static_cast<int>(p);}
+              if (num1==num2){
+                  pos++;
+              }
+              else{
+                  if (num1<num2){
+                  res=num1-num2;
+                  pos++;
+                  break;
+              }
+              if (num1>num2){
+                  res=num1-num2;
+                  pos++;
+                  break;
+              }            
+              }
+          }
+          if(res!=0){res=res/abs(res);} //res=0 si son iguales, res=1 si word1 es mayor y res=-1 si word1 es menor.
+  }
